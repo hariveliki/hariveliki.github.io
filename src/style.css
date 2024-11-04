@@ -741,3 +741,96 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+.project-description {
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.project-description h2 {
+  color: #c770f0;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.project-description ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.project-description li {
+  margin-bottom: 10px;
+}
+
+/* Add these styles at the end of the file */
+
+.metrics-table {
+  margin: 30px -100px;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.metrics-table table {
+  width: calc(100% + 200px);
+  border-collapse: separate;
+  border-spacing: 15px;
+  margin: 0 auto;
+}
+
+.metrics-table th {
+  color: #c770f0;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.metrics-table td {
+  background: rgba(199, 112, 240, 0.1);
+  padding: 25px;
+  text-align: center;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  min-width: 200px;
+}
+
+.metrics-table td.row-header {
+  background: none;
+  color: #c770f0;
+  font-weight: 600;
+  text-align: left;
+  min-width: 180px;
+}
+
+.metrics-table td:not(.row-header):hover {
+  background: rgba(199, 112, 240, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Add responsive handling */
+@media (max-width: 1200px) {
+  .metrics-table {
+    margin: 30px -50px;
+  }
+  
+  .metrics-table table {
+    width: calc(100% + 100px);
+  }
+}
+
+@media (max-width: 768px) {
+  .metrics-table {
+    margin: 30px -20px;
+  }
+  
+  .metrics-table table {
+    width: 100%;
+    border-spacing: 8px;
+  }
+  
+  .metrics-table td {
+    padding: 15px;
+    min-width: 150px;
+  }
+}
+

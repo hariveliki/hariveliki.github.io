@@ -38,10 +38,10 @@ function Projects() {
             <ProjectCard
               imgPath={pim}
               isBlog={false}
-              title="Data Centralisation Project"
-              description="I worked as a sub-project manager on the implementation of a new PIM (Product Information Management) system. It allows collecting, managing and enriching product information in a single place and distributing it to sales, eCommerce, marketplace, etc. channels."
+              title="Introducing a new PIM"
+              description="I worked as a Scrum Master and later Developer on the implementation of a new PIM (Product Information Management) system. It allows collecting, managing and enriching product information in a single place and distributing it to sales, eCommerce, marketplace, etc. channels."
               // ghLink=""
-              // demoLink=""
+              demoLink="/blog/pim"
             />
           </Col>
 

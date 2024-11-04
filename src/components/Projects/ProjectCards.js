@@ -20,7 +20,7 @@ function ProjectCards(props) {
         {/* Conditionally render Demo button */}
         {props.demoLink && (
           <Button variant="primary" href={props.demoLink} target="_blank">
-            <CgWebsite /> &nbsp;Demo
+            <CgWebsite /> &nbsp;View
           </Button>
         )}
       </Card.Body>
