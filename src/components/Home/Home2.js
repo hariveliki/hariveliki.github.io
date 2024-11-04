@@ -16,27 +16,54 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              <span className="purple">Workself</span>
             </h1>
             <p className="home-about-body">
-              I have several interests among them are{" "}
-              <b className="purple">Software Development</b>,{" "}
-              <b className="purple">Data Science</b>,{" "}
-              <b className="purple">Math</b> and{" "}
-              <b className="purple">Technology</b> in general.
-              <br />
-              <br />
-              As far as my programming skills go, I am fluent in
-              <i>
-                <b className="purple"> Python</b> and competent in{" "}
-                <b className="purple">R.</b>
-              </i>
-              <br />
-              <br />
-              Nowadays I'm also learning Web Development with{" "}
-              <b className="purple">JavaScript</b> and{" "}
-              <b className="purple">React.js</b>, because everyone wants to have
-              a website.
+              I have worked in the following professions:
+              <ul>
+                <li>
+                  <span className="purple">Software Developer</span>
+                </li>
+                <li>
+                  <span className="purple">Application Manager</span>
+                </li>
+                <li>
+                  <span className="purple">Scrum Master</span>
+                </li>
+                <li>
+                  <span className="purple">Data Analyst</span>
+                </li>
+                <li>
+                  <span className="purple">Logistics Coordinator</span>
+                </li>
+              </ul>
+              And in the following sectors:
+              <ul>
+                <li>
+                  <span className="purple">Retail</span>
+                </li>
+                <li>
+                  <span className="purple">Manufacturing</span>
+                </li>
+                <li>  
+                  <span className="purple">Logistics</span>
+                </li>
+              </ul>
+              I have a good understanding of the following topics:
+              <ul>
+                <li>
+                  <span className="purple">Software Development</span>
+                </li>
+                <li>
+                  <span className="purple">Agile Project Management</span>
+                </li>
+                <li>
+                  <span className="purple">ERP and PIM systems</span>
+                </li>
+                <li>
+                  <span className="purple">Business Processes</span>
+                </li>
+              </ul>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
