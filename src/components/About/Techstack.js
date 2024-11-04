@@ -2,9 +2,6 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
   DiPython,
   DiGit,
 } from "react-icons/di";
@@ -12,10 +9,9 @@ import {
   SiPostgresql,
   SiR,
   SiPytorch,
-  SiTensorflow,
   SiKubernetes,
   SiDjango,
-  SiApachekafka,
+  SiGooglecloud,
 } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
 
@@ -24,6 +20,9 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGooglecloud />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiR />
@@ -38,12 +37,6 @@ function Techstack() {
         <SiPytorch />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiDjango />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -54,9 +47,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiKubernetes />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiApachekafka />
       </Col>
     </Row>
   );

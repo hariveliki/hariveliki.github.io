@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Sparetime from "./Sparetime";
+import Experience from "./Experience"; 
 
 function About() {
   return (
@@ -21,27 +22,25 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+            <h1 className="project-heading">
+              <span className="purple">In a Nutshell</span>
             </h1>
             <Aboutcard />
           </Col>
-          {/* <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={laptopImg} alt="about" className="img-fluid" />
-          </Col> */}
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          <span className="purple">Experience</span>
+        </h1>
+        <Experience />
+
+        <h1 className="project-heading">
+          <span className="purple">Techstack</span>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Sparetime</strong> Activities
+          <span className="purple">Sparetime</span>
         </h1>
         <Sparetime />
 

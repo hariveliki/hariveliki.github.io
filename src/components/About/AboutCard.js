@@ -7,13 +7,17 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Persevering and being passionate about achieving the best result are just as important to me as motivating my fellow human beings to grow."{" "}
-          </p>
           <p style={{ textAlign: "justify" }}>
-            I started working in the automation and logistics industry at the age of 16. I was fascinated by supply chain issues, how globalisation works and how it will affect our lives in the future. After graduating from vocational school with a degree in logistics, I decided to deepen my knowledge in this field and completed a professional bachelor's degree in industrial engineering and international logistics. I find it exciting to design, control and optimise processes economically. I learned how to strive for energy-efficient processes by analysing and continuously improving them in order to increase efficiency and minimise costs. My thesis was on a management concept for a food tech company based in Switzerland with sites across Europe. I am currently working as a software developer for a retail company. The integration of IT and data science into a company is necessary for its continued existence. For this reason, I decided to study Data Science, first on a self-study programme and then part-time. I am looking forward to a great future in technologically advanced companies all over the world.
+            I started my apprenticeship in logistics for ABB where we build
+            turbo chargers. The focus on supply chain and business processes led
+            to a professional degree in industrial engineering. This gave me the
+            opportunity to lead a team in the logistics department for the
+            retailer Globus. The next step was to switch to a different
+            department and work in various jobs in two software projects. During
+            that time, I decided to focus on software development and started to
+            study data science. For the future the goal is to lead big software
+            projects and help companies shift to the digital era.
           </p>
-
         </blockquote>
       </Card.Body>
     </Card>
