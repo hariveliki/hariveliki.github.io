@@ -6,17 +6,14 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate
-} from "react-router-dom";
+import { HashRouter, BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Pim from "./components/Blog/Pim";
+
+const Router = process.env.REACT_APP_ENV === "github" ? HashRouter : BrowserRouter;
 
 function App() {
   const [load, upadateLoad] = useState(true);
