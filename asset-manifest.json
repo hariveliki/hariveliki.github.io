@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dba16bb7.css",
+    "main.js": "/static/js/main.bb33097e.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/dtp.png": "/static/media/dtp.c512ffc36e24778ef846.png",
+    "static/media/real_estate.png": "/static/media/real_estate.b8d41f31dccce35be5e6.png",
+    "static/media/time_series.png": "/static/media/time_series.d26c2a093ac941b2d1cf.png",
+    "static/media/log.png": "/static/media/log.03f35deb2eb2d02cb446.png",
+    "static/media/onboarder.png": "/static/media/onboarder.0dde5141254acaf5b013.png",
+    "static/media/CV.pdf": "/static/media/CV.e6696e30c559c3b3b9bd.pdf",
+    "static/media/pim.png": "/static/media/pim.1cc6e44823b76bef1da4.png",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/hf.png": "/static/media/hf.f1b96d729d0023fb1bd5.png",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/logo.png": "/static/media/logo.5a14c3039188cabce6e9.png",
+    "static/media/smart_classroom.png": "/static/media/smart_classroom.4d79f7767ca8bfc16143.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/static/media/avatar.3b850b0f3def327d48c52cf282cb6f75.svg",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.dba16bb7.css.map": "/static/css/main.dba16bb7.css.map",
+    "main.bb33097e.js.map": "/static/js/main.bb33097e.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dba16bb7.css",
+    "static/js/main.bb33097e.js"
+  ]
+}
