@@ -19,7 +19,7 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
+            <Col md={6} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
@@ -36,25 +36,9 @@ function Home() {
                 <Type />
               </div>
             </Col>
-
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
-            </Col>
-          </Row>
-        </Container>
-      </Container>
-
-      <Container fluid className="home-about-section" id="about">
-        <Container>
-          <Row>
-            <Col md={8} className="home-about-description">
+            <Col md={6} className="home-about-description">
               <h1 style={{ fontSize: "2.6em" }}>
-                <span className="purple">Workself</span>
+                <span className="purple">Experience</span>
               </h1>
               <p className="home-about-body">
                 I have worked in the following professions:
@@ -106,12 +90,20 @@ function Home() {
                 </ul>
               </p>
             </Col>
-            <Col md={4} className="myAvtar">
-              <Tilt>
-                <img src={myImg} className="img-fluid" alt="avatar" />
-              </Tilt>
-            </Col>
+            {/* <Col md={5} style={{ paddingBottom: 20 }}>
+              <img
+                src={homeLogo}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
+            </Col> */}
           </Row>
+        </Container>
+      </Container>
+
+      <Container fluid className="home-about-section" id="about">
+        <Container>
           <Row>
             <Col md={12} className="home-about-social">
               <h1>FIND ME ON</h1>

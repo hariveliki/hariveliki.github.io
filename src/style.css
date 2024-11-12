@@ -252,6 +252,8 @@ button:focus {
 
 .home-header {
   padding-top: 80px !important;
+  width: 50% !important;
+  float: left !important;
 }
 
 .home-section {
@@ -325,9 +327,10 @@ button:focus {
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
+  width: 50% !important;
+  float: left !important;
 }
 
 .home-about-body {
@@ -858,6 +861,15 @@ button:focus {
   font-size: 0.7em;
   margin-top: 8px;
   text-align: center;
+}
+
+/* Add this new media query for responsive layout */
+@media (max-width: 768px) {
+  .home-header,
+  .home-about-description {
+    width: 100% !important;
+    float: none !important;
+  }
 }
 
 
