@@ -41,7 +41,7 @@ function Projects() {
               title="Introducing a new PIM"
               description="I worked as a Scrum Master and later Developer on the implementation of a new PIM (Product Information Management) system. It allows collecting, managing and enriching product information in a single place and distributing it to sales, eCommerce, marketplace, etc. channels."
               // ghLink=""
-              // demoLink="#/blog/pim"
+              demoLink="#/blog/pim"
             />
           </Col>
 
