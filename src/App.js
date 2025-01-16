@@ -12,6 +12,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Pim from "./components/Blog/Pim";
+import Simi from "./components/Blog/Simi";
 
 const Router = process.env.REACT_APP_ENV === "github" ? HashRouter : BrowserRouter;
 
@@ -38,6 +39,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/blog/pim" element={<Pim />} />
+          <Route path="/simi" element={<Simi />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

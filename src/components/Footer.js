@@ -13,12 +13,6 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3></h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3></h3>
-        </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
@@ -62,6 +56,9 @@ function Footer() {
               </a>
             </li> */}
           </ul>
+        </Col>
+        <Col md="4" className="footer-copywright">
+          <h3>Für <a href="#/simi">Simi</a> 💖</h3>
         </Col>
       </Row>
     </Container>
