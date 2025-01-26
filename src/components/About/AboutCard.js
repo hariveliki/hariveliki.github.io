@@ -1,26 +1,56 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
-      <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            I started my apprenticeship in logistics for ABB where we build
-            turbo chargers. The focus on supply chain and business processes led
-            to a professional degree in industrial engineering. This gave me the
-            opportunity to lead a team in the logistics department for the
-            retailer Globus. The next step was to switch to a different
-            department and work in various jobs in two software projects. During
-            that time, I decided to focus on software development and started to
-            study data science. For the future the goal is to lead big software
-            projects and help companies shift to the digital era.
-          </p>
-        </blockquote>
-      </Card.Body>
-    </Card>
+    <p className="home-about-body">
+      I have worked in the following professions:
+      <ul>
+        <li>
+          <span className="purple">Software Developer</span>
+        </li>
+        <li>
+          <span className="purple">Application Manager</span>
+        </li>
+        <li>
+          <span className="purple">Scrum Master</span>
+        </li>
+        <li>
+          <span className="purple">Data Analyst</span>
+        </li>
+        <li>
+          <span className="purple">Logistics Coordinator</span>
+        </li>
+      </ul>
+      And in the following sectors:
+      <ul>
+        <li>
+          <span className="purple">Retail</span>
+        </li>
+        <li>
+          <span className="purple">Manufacturing</span>
+        </li>
+        <li>
+          <span className="purple">Logistics</span>
+        </li>
+      </ul>
+      I have a good understanding of the following topics:
+      <ul>
+        <li>
+          <span className="purple">Software Development</span>
+        </li>
+        <li>
+          <span className="purple">
+            Project Management (Agile, Traditional)
+          </span>
+        </li>
+        <li>
+          <span className="purple">ERP and PIM systems</span>
+        </li>
+        <li>
+          <span className="purple">Business Processes</span>
+        </li>
+      </ul>
+    </p>
   );
 }
 
