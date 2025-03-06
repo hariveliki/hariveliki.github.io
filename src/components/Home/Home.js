@@ -31,7 +31,13 @@ function Home() {
                 }}
               />
               <div className="mt-4">
-                <p style={{ color: "#0d6efd", fontSize: "1.1rem" }}>
+                <p
+                  style={{
+                    color: "#0d6efd",
+                    fontSize: "1.1rem",
+                    fontWeight: "bold",
+                  }}
+                >
                   Problem Solver
                 </p>
               </div>
@@ -127,7 +133,7 @@ function Home() {
                     </a>
                   </p>
                   <p>
-                    <a href="/#" style={{ textDecoration: "none" }}>
+                    <a href="/#/blog/pim" style={{ textDecoration: "none" }}>
                       Data Centralization
                     </a>
                   </p>
@@ -176,12 +182,12 @@ function Home() {
                   </h3>
                   <p>
                     <a href="/#" style={{ textDecoration: "none" }}>
-                      Servant Leadership
+                      Servant Leadership (Scrum Master)
                     </a>
                   </p>
                   <p>
                     <a href="/#" style={{ textDecoration: "none" }}>
-                      Returns Management
+                      Returns Department E-Logistics
                     </a>
                   </p>
                   <img
