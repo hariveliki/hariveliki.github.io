@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ee3780ea.css",
+    "main.js": "/static/js/main.83d87a8e.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/dtp.png": "/static/media/dtp.c512ffc36e24778ef846.png",
+    "static/media/real_estate.png": "/static/media/real_estate.b8d41f31dccce35be5e6.png",
+    "static/media/time_series.png": "/static/media/time_series.d26c2a093ac941b2d1cf.png",
+    "static/media/log.png": "/static/media/log.03f35deb2eb2d02cb446.png",
+    "static/media/onboarder.png": "/static/media/onboarder.0dde5141254acaf5b013.png",
+    "static/media/pop_swiss.png": "/static/media/pop_swiss.211808b44b7d5a5e73f3.png",
+    "static/media/pim.png": "/static/media/pim.1cc6e44823b76bef1da4.png",
+    "static/media/hf.png": "/static/media/hf.f1b96d729d0023fb1bd5.png",
+    "static/media/pop_by_age_swiss.png": "/static/media/pop_by_age_swiss.5e81d35a1c453f5c2ca9.png",
+    "static/media/birth_rate_swiss.png": "/static/media/birth_rate_swiss.70a0c4e2c9ac940eb5b1.png",
+    "static/media/smart_classroom.png": "/static/media/smart_classroom.4d79f7767ca8bfc16143.png",
+    "static/media/life_expect_swiss.png": "/static/media/life_expect_swiss.62171a3fdc8cc90cae05.png",
+    "index.html": "/index.html",
+    "main.ee3780ea.css.map": "/static/css/main.ee3780ea.css.map",
+    "main.83d87a8e.js.map": "/static/js/main.83d87a8e.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee3780ea.css",
+    "static/js/main.83d87a8e.js"
+  ]
+}
