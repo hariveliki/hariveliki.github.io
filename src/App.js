@@ -16,6 +16,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Pim from "./components/Blog/Pim";
 import Std from "./components/Blog/Std";
+import Mps from "./components/Blog/Mps";
 
 const Router =
   process.env.REACT_APP_ENV === "github" ? HashRouter : BrowserRouter;
@@ -31,6 +32,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/blog/pim" element={<Pim />} />
           <Route path="/blog/std" element={<Std />} />
+          <Route path="/blog/mps" element={<Mps />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

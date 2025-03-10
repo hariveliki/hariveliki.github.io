@@ -57,7 +57,9 @@ function Pim() {
             <li className="toc-h3">
               <span
                 data-target="company-background"
-                className={activeSection === "company-background" ? "active" : ""}
+                className={
+                  activeSection === "company-background" ? "active" : ""
+                }
               >
                 Company Background
               </span>
@@ -177,13 +179,14 @@ function Pim() {
             <div className="p-3 mb-1">
               <h1
                 style={{
-                  textDecoration: "underline",
+                  
                   marginTop: "3rem",
                   fontWeight: "bold",
                 }}
               >
-                Experience within a{" "}
-                <span style={{ color: "#0d6efd" }}>PIM Project</span>
+                <span style={{ color: "#0d6efd", textDecoration: "underline" }}>
+                  Experience within a PIM Project
+                </span>
               </h1>
 
               <Row style={{ justifyContent: "center", padding: "10px" }}>

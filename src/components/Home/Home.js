@@ -70,16 +70,8 @@ function Home() {
                   >
                     Software / AI
                   </h3>
-                  <p>
-                    <a href="/#" style={{ textDecoration: "none" }}>
-                      How to handle 1'000'000 Products?
-                    </a>
-                  </p>
-                  <p>
-                    <a href="/#" style={{ textDecoration: "none" }}>
-                      Machine Learning Magic
-                    </a>
-                  </p>
+                  <p>How to handle 1'000'000 Products?</p>
+                  <p>Machine Learning Magic</p>
                   <p>
                     <a href="/#" style={{ textDecoration: "none" }}>
                       Content Creation from Days to Seconds
@@ -127,11 +119,7 @@ function Home() {
                   >
                     Project Management
                   </h3>
-                  <p>
-                    <a href="/#" style={{ textDecoration: "none" }}>
-                      AI-Interaction with your Building
-                    </a>
-                  </p>
+                  <p>AI-Interaction with your Building</p>
                   <p>
                     <a href="/#/blog/pim" style={{ textDecoration: "none" }}>
                       Data Centralization
@@ -180,16 +168,8 @@ function Home() {
                   >
                     Leadership
                   </h3>
-                  <p>
-                    <a href="/#" style={{ textDecoration: "none" }}>
-                      Servant Leadership (Scrum Master)
-                    </a>
-                  </p>
-                  <p>
-                    <a href="/#" style={{ textDecoration: "none" }}>
-                      Returns Department E-Logistics
-                    </a>
-                  </p>
+                  <p>Servant Leadership (Scrum Master)</p>
+                  <p>Returns Department E-Logistics</p>
                   <img
                     src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/handshake.svg"
                     alt="Servant Leadership Icon"
@@ -222,11 +202,7 @@ function Home() {
                   >
                     Coaching
                   </h3>
-                  <p>
-                    <a href="/#" style={{ textDecoration: "none" }}>
-                      Strategy, Motivation, and Realization
-                    </a>
-                  </p>
+                  <p>Strategy, Motivation, and Realization</p>
                   <img
                     src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/goal.svg"
                     alt="Target with Arrow Icon"
