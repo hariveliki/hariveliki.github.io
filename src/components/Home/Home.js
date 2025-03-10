@@ -73,8 +73,8 @@ function Home() {
                   <p>How to handle 1'000'000 Products?</p>
                   <p>Machine Learning Magic</p>
                   <p>
-                    <a href="/#" style={{ textDecoration: "none" }}>
-                      Content Creation from Days to Seconds
+                    <a href="/#/blog/mps" style={{ textDecoration: "none" }}>
+                      Content Creation from Days to Minutes
                     </a>
                   </p>
                   <img
