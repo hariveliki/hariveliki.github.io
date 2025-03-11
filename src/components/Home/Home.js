@@ -70,11 +70,11 @@ function Home() {
                   >
                     Software / AI
                   </h3>
-                  <p>How to handle 1'000'000 Products?</p>
-                  <p>Machine Learning Magic</p>
+                  <p>Wie mit 1'000'000 Produkten umgehen?</p>
+                  <p>Machine Learning Magie</p>
                   <p>
                     <a href="/#/blog/mps" style={{ textDecoration: "none" }}>
-                      Content Creation from Days to Minutes
+                      Hunderte Beschreibungen im Minutentakt
                     </a>
                   </p>
                   <img
@@ -117,12 +117,12 @@ function Home() {
                       textDecoration: "underline",
                     }}
                   >
-                    Project Management
+                    Projekt Management
                   </h3>
-                  <p>AI-Interaction with your Building</p>
+                  <p>AI-Interaktion mit Ihrem Gebäude</p>
                   <p>
                     <a href="/#/blog/pim" style={{ textDecoration: "none" }}>
-                      Data Centralization
+                      Daten Zentralisierung
                     </a>
                   </p>
                   {/* <p>
@@ -168,8 +168,8 @@ function Home() {
                   >
                     Leadership
                   </h3>
-                  <p>Servant Leadership (Scrum Master)</p>
-                  <p>Returns Department E-Logistics</p>
+                  <p>Servant Leadership</p>
+                  <p>Management Retourenabteilung</p>
                   <img
                     src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/handshake.svg"
                     alt="Servant Leadership Icon"
@@ -202,7 +202,7 @@ function Home() {
                   >
                     Coaching
                   </h3>
-                  <p>Strategy, Motivation, and Realization</p>
+                  <p>Strategie, Motivation und Realisierung</p>
                   <img
                     src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/goal.svg"
                     alt="Target with Arrow Icon"
