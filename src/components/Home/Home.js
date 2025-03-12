@@ -56,7 +56,7 @@ function Home() {
                 }}
                 className="mb-4"
               >
-                Services
+                Erfahrung
               </h2>
               <Row style={{ marginBottom: "2rem" }}>
                 <Col md={6} className="mb-4">
@@ -173,7 +173,14 @@ function Home() {
                   >
                     Leadership
                   </h3>
-                  <p>Servant Leadership</p>
+                  <p>
+                    <a
+                      href="/#/blog/centralization"
+                      style={{ textDecoration: "none" }}
+                    >
+                      Servant Leadership
+                    </a>
+                  </p>
                   <p>Management Retourenabteilung</p>
                   <img
                     src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/handshake.svg"
