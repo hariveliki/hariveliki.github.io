@@ -77,6 +77,11 @@ function Home() {
                       Hunderte Beschreibungen im Minutentakt
                     </a>
                   </p>
+                  <p>
+                    <a href="/#/blog/pim" style={{ textDecoration: "none" }}>
+                      Scrum Master & Entwickler
+                    </a>
+                  </p>
                   <img
                     src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/svgs/solid/rocket.svg"
                     alt="Rocket Icon"
@@ -121,7 +126,7 @@ function Home() {
                   </h3>
                   <p>AI-Interaktion mit Ihrem Gebäude</p>
                   <p>
-                    <a href="/#/blog/pim" style={{ textDecoration: "none" }}>
+                    <a href="/#/blog/centralization" style={{ textDecoration: "none" }}>
                       Daten Zentralisierung
                     </a>
                   </p>

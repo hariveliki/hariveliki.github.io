@@ -185,7 +185,7 @@ function Pim() {
                 }}
               >
                 <span style={{ color: "#0d6efd", textDecoration: "underline" }}>
-                  Experience within a PIM Project
+                  Transition from Scrum Master to Developer
                 </span>
               </h1>
 
