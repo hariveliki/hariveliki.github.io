@@ -9,36 +9,33 @@ function NavBar() {
     <Navbar
       fixed="top"
       expand="md"
-      style={{ 
-        backgroundColor: 'white',
-        fontFamily: 'ui-monospace, monospace',
-        borderBottom: '1px solid #dee2e6',
-        padding: '1rem 0'
+      style={{
+        backgroundColor: "white",
+        fontFamily: "ui-monospace, monospace",
+        borderBottom: "1px solid #dee2e6",
+        padding: "1rem 0",
       }}
     >
       <Container>
-        <Navbar.Brand 
-          as={Link} 
-          to="/"
-          style={{ 
-            color: '#0d6efd',
-            fontWeight: 'bold',
-            textDecoration: 'underline'
+        <Navbar.Brand
+          style={{
+            color: "#0d6efd",
+            fontWeight: "bold",
+            // textDecoration: 'underline'
           }}
         >
-          
+          Haris Alic
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link 
-              as={Link} 
-              to="/" 
-              style={{ color: '#666', marginLeft: '2rem' }}
+            <Nav.Link
+              as={Link}
+              to="/"
+              style={{ color: "#666", marginLeft: "2rem" }}
             >
               Home
             </Nav.Link>
-            
           </Nav>
         </Navbar.Collapse>
       </Container>
