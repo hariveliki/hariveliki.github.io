@@ -70,11 +70,18 @@ function Home() {
                   >
                     Software / AI
                   </h3>
-                  <p>Wie mit 1'000'000 Produkten umgehen?</p>
-                  <p>Machine Learning Magie</p>
+                  <p>
+                    <a
+                      href="/#/blog/onboarding"
+                      style={{ textDecoration: "none" }}
+                    >
+                      PIM & Onboarding
+                    </a>
+                  </p>
+                  <p>Machine Learning</p>
                   <p>
                     <a href="/#/blog/mps" style={{ textDecoration: "none" }}>
-                      Hunderte Beschreibungen im Minutentakt
+                      Large Language Models
                     </a>
                   </p>
                   <p>
@@ -126,7 +133,10 @@ function Home() {
                   </h3>
                   <p>AI-Interaktion mit Ihrem Gebäude</p>
                   <p>
-                    <a href="/#/blog/centralization" style={{ textDecoration: "none" }}>
+                    <a
+                      href="/#/blog/centralization"
+                      style={{ textDecoration: "none" }}
+                    >
                       Daten Zentralisierung
                     </a>
                   </p>

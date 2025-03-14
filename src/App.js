@@ -18,6 +18,7 @@ import Pim from "./components/Blog/Pim";
 import Std from "./components/Blog/Std";
 import Mps from "./components/Blog/Mps";
 import Centralization from "./components/Blog/Centralization";
+import Onboarding from "./components/Blog/Onboarding";
 const Router =
   process.env.REACT_APP_ENV === "github" ? HashRouter : BrowserRouter;
 
@@ -34,6 +35,7 @@ function App() {
           <Route path="/blog/std" element={<Std />} />
           <Route path="/blog/mps" element={<Mps />} />
           <Route path="/blog/centralization" element={<Centralization />} />
+          <Route path="/blog/onboarding" element={<Onboarding />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
