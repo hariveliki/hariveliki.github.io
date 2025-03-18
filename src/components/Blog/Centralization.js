@@ -5,7 +5,7 @@ import ist from "../../Assets/Blog/Centralization/ist.png";
 import soll from "../../Assets/Blog/Centralization/soll.png";
 import phases from "../../Assets/Blog/Centralization/phases.jpeg";
 import scrum from "../../Assets/Blog/Centralization/scrum.png";
-// import planning from "../../Assets/Blog/Centralization/planning.png";
+import planning from "../../Assets/Blog/Centralization/planning.png";
 import community from "../../Assets/Blog/Centralization/community.png";
 import documentation from "../../Assets/Blog/Centralization/documentation.png";
 
@@ -44,10 +44,10 @@ function Centralization() {
       <ul className="toc-list">
         <li>
           <span
-            data-target="einführung"
-            className={activeSection === "einführung" ? "active" : ""}
+            data-target="einleitung"
+            className={activeSection === "einleitung" ? "active" : ""}
           >
-            Einführung
+            Einleitung
           </span>
         </li>
         <li>
@@ -57,6 +57,32 @@ function Centralization() {
           >
             Meine Rolle
           </span>
+        </li>
+        <li>
+          <span
+            data-target="projektbeschreibung"
+            className={activeSection === "projektbeschreibung" ? "active" : ""}
+          >
+            Projektbeschreibung
+          </span>
+          <ul className="toc-list">
+            <li className="toc-h3">
+              <span
+                data-target="ist"
+                className={activeSection === "ist" ? "active" : ""}
+              >
+                IST Zustand
+              </span>
+            </li>
+            <li className="toc-h3">
+              <span
+                data-target="soll"
+                className={activeSection === "soll" ? "active" : ""}
+              >
+                SOLL Zustand
+              </span>
+            </li>
+          </ul>
         </li>
         <li>
           <span
@@ -108,10 +134,10 @@ function Centralization() {
             </li>
             <li className="toc-h3">
               <span
-                data-target="daily-stand-ups"
-                className={activeSection === "daily-stand-ups" ? "active" : ""}
+                data-target="daily"
+                className={activeSection === "daily" ? "active" : ""}
               >
-                Daily Stand-ups
+                Daily
               </span>
             </li>
           </ul>
@@ -168,50 +194,111 @@ function Centralization() {
                 }}
               >
                 <span style={{ color: "#0d6efd", textDecoration: "underline" }}>
-                  Mit Zentralen Produkt Stammdaten zum Erfolg
+                  Elemente erfolgreicher Projektdurchführung
                 </span>
               </h1>
 
               <Row style={{ justifyContent: "center", padding: "10px" }}>
                 <Col md={12} className="project-description">
-                  <h2 id="einführung">Einführung</h2>
+                  <h2 id="einleitung">Einleitung</h2>
                   <p>
-                    Ende 2019 arbeitete ich für einen Luxus-Einzelhändler, der
-                    erhebliche Herausforderungen im Bereich des
-                    Produktdatenmanagements hatte. Die Ineffizienzen in unseren
-                    Prozessen verzögerten den Warenfluss von den Lieferanten zu
-                    den Kunden – was wir als „Time to Market“ bezeichneten.
-                    Unser bestehendes Product Information Management System
-                    (PIM) war teuer und übermässig komplex, was unnötige
-                    betriebliche Engpässe verursachte. Um dieses Problem zu
-                    lösen, starteten wir ein Projekt zur Implementierung eines
-                    neuen PIM, das die Kosten senken und gleichzeitig
-                    benutzerfreundlicher sein sollte.
+                    Von 2019 bis 2022 habe ich für ein Schweizer Warenhaus an
+                    einem Stammdaten Projekt mitgearbeitet. Es ging darum die
+                    Organisation der Produktdaten zu zentralisieren, mithilfe
+                    eines neuen Product Information Management System (PIM)
+                    Systems. In diesem Artikel möchte über unser Projektvorgehen
+                    und meine Rolle darin berichten. Während des Projekts
+                    übernahm ich diverse Rollen und Aufgaben, darunter{" "}
+                    <strong>
+                      Scrum Master, Datenanalyst und Teilprojektleiter
+                    </strong>
+                    , jedoch konzentriert sich dieser Artikel hauptsächlich auf
+                    meine Rolle als Scrum Master. Der Artikel beantwortet
+                    folgende Fragen:
                   </p>
                   <p>
-                    Dieses Projekt brachte eine Reihe von Herausforderungen mit
-                    sich. Der COVID-19-Lockdown störte den Betrieb, wichtige
-                    Teammitglieder gingen in Mutterschaftsurlaub, und wir
-                    mussten eine laufende Anwendung auf einem veralteten, nicht
-                    mehr unterstützten System aufrechterhalten. Es fehlten
-                    Browser-Updates, die Datenmenge wuchs rasant, und zusätzlich
-                    mussten wir auf ein neues System umsteigen, während alles
-                    weiterhin funktionierte.
+                    - Warum ist die zentrale Organisation der Produktdaten
+                    wichtig?
+                  </p>
+                  <p>- Wie haben wir das Projekt abgewickelt?</p>
+                  <p>- Welche Projektmanagement Methoden haben wir genutzt?</p>
+                  <p>
+                    - Welche Elemente haben für den Projekterfolg eine zentrale
+                    Rolle gespielt?
+                  </p>
+                  <h2 id="meine-rolle">Meine Rolle</h2>
+                  <p>
+                    Die Rolle des <strong>Scrum Master</strong> umfasst{" "}
+                    <strong>
+                      Servant Leadership, Coaching und Vermittlung
+                    </strong>
+                    . Als <strong>Servant Leader</strong> war es meine Aufgabe
+                    das Team dabei zu unterstützen{" "}
+                    <strong>
+                      selbstständiger, anpassungsfähiger und engagierter
+                    </strong>{" "}
+                    zu arbeiten. Als <strong>Coach</strong> vermittelte ich
+                    unser Projektvorgehen innerhalb der Organisation und stellte
+                    sicher das alle <strong>Scrum-Events</strong> wie{" "}
+                    <strong>
+                      Daily Stand-ups, Sprint Planning, Sprint Reviews und
+                      Retrospektiven
+                    </strong>{" "}
+                    effektiv durchgeführt wurden. Als{" "}
+                    <strong>Vermittler</strong> bestand meine Rolle darin, eine
+                    Verbindung zwischen dem Projektteam und allen Stakeholdern
+                    Projektteam und allen Stakeholdern zu schaffen, Konflikte zu
+                    lösen und ein Umfeld zu schaffen, indem effektives Arbeiten
+                    ermöglicht werden sollte.
+                  </p>
+                  <h2 id="projektbeschreibung">Projektbeschreibung</h2>
+                  <p>
+                    Die "Time to Market" beschreibt die Zeitspanne vom
+                    Bestellzeitpunkt bis zum Verkauf an den Kunden. Als
+                    Detailhändler gilt es diese Zeit zu minimieren, um Kosten
+                    einzusparen, was sich indirekt auf den Umsatz auswirkt.
+                    Diese Zeit wird von drei Variablen beeinflusst, nämlich den
+                    Lieferanten, den internen Prozessen und den genutzten
+                    Systemen. Eines dieser Systeme ist das PIM und spielt eine
+                    zentrale Rolle, um die "Time to Market" zu verkürzen. So
+                    ermöglicht das richtige PIM zum Beispiel die Zentralisierung
+                    der Produktdaten, das automatische anreichern dieser
+                    Produktdaten mit Individualsoftware und das beliefern von
+                    Subsystemen wie dem Online Shop mit hochqualitativen Daten,
+                    die benötigt werden, um sie dem Kunden präsentieren zu
+                    können.
                   </p>
                   <p>
-                    Zu dieser Zeit wurde unsere Produktdatenverwaltung dezentral
-                    organisiert. Jede Abteilung – Damenmode, Beauty, Home &
-                    Living und andere – hatte ihren eigenen Onboarding-Prozess
-                    für Lieferanten. Einkäufer und ihre Assistenten gaben die
-                    Produktdetails manuell in unser Enterprise Resource Planning
-                    (ERP)-System ein, das nur die grundlegendsten Daten an das
-                    PIM weiterleitete. Da das ERP-System Einschränkungen bei der
-                    Verwaltung detaillierter Produktinformationen hatte, mussten
-                    Datenverwalter die Produktlisten manuell anreichern –
-                    Beschreibungen, Bilder, Grössen und andere wichtige Details
-                    hinzufügen –, bevor die Daten im Online-Shop für Kunden
-                    sichtbar waren. Das PIM lieferte also die notwendigen
-                    Produktdetails an den Online-Shop.
+                    Die damaligen Prozesse waren dezentral abgewickelt und das
+                    genutzte PIM konnte für eine Optimierung der
+                    Prozesslandschaft nicht genutzt werden. Im Gegenteil, es
+                    verursachte zusätzlichen manuellen Aufwand und war teuer zu
+                    gleich. Um dieses Problem zu lösen, hat sich das Unternehmen
+                    entschieden ein neues PIM einzuführen. Es sollte dabei
+                    helfen, die Prozesse zu vereinfachen sowie den
+                    Automatisierungsgrad mithilfe von selbstentwickelter
+                    Software zu erhöhen.
+                  </p>
+                  <h3 id="ist">IST Zustand</h3>
+                  <p>
+                    Vor dem Projekt wurde die Produktdatenverwaltung dezentral
+                    organisiert, d.h. Abteilungen wie der Einkauf hatten ihren
+                    eigenen Prozess für das Onboarding der Produkte. Das
+                    Onboarding bezeichnet alle involvierten Schritte, die
+                    benötigt werden, um die Produktdaten vom Lieferanten, in die
+                    Systeme des Unternehmens zu integrieren. Im Worst-Case
+                    Szenario fand kein automatisierter Datenaustausch statt.
+                    Dann erhielten die Einkäufer die Daten zum Beispiel als
+                    Excel Tabellen via Mail oder auf Share Points. Die
+                    Einkaufsassistenten gaben dann die Produktdaten manuell im
+                    Enterprise Resource Planning (ERP)-System ein. Da das
+                    ERP-System nur die grundlegendsten Informationen beinhaltet
+                    und das Anreichern detaillierter Produktinformationen nicht
+                    ermöglicht, müssen Datenpfleger die Produkte manuell im PIM
+                    anreichern, wie zum Beispiel das hinzufügen von
+                    Beschreibungen und Bildern. Erst nach dem
+                    Anreicherungsprozess im PIM ist die Produktdaten Qualität so
+                    hoch, dass sie der Online Shop dem Kunden präsentieren kann.
                   </p>
                   <div className="image-container">
                     <img
@@ -225,21 +312,23 @@ function Centralization() {
                       }}
                     />
                   </div>
+                  <h3 id="soll">Soll Zustand</h3>
                   <p>
-                    Unser Ziel war es, zu einer zentralisierten Vorgehensweise
-                    überzugehen. Anstatt dass jede Abteilung die Daten separat
-                    verwaltete, sollten alle Lieferanten ihre
-                    Produktinformationen an einem vordefinierten Ort
-                    bereitstellen oder uns über ihre Plattformen – sei es eine
-                    Webseite, SharePoint oder Cloud-Speicher – Zugang gewähren.
-                    Unsere massgeschneiderten Microservices verarbeiteten dann
-                    diese Daten und luden sie über eine REST-API in das neue PIM
-                    hoch. Beim Eintreffen im PIM waren die Daten bereits
-                    teilweise angereichert, sodass Einkäufer, Assistenten und
-                    Datenverwalter abschliessende Verfeinerungen in einem
-                    einzigen, einheitlichen System vornehmen konnten. Das PIM
-                    lieferte dann die angereicherten Daten an alle relevanten
-                    Subsysteme, einschliesslich ERP und Online-Shops.
+                    Das Ziel des Unternehmens war es die Produktdatenverwaltung
+                    zentral zu organisieren, um den Onboardingprozess zu
+                    beschleunigen sowie eine transparentere Prozesslandschaft zu
+                    bekommen. Anstatt das jede Abteilung die Daten separat
+                    verwaltet, sollten alle Lieferantendaten an einem zentralen
+                    Ort abgelegt werden. Automatische Workflows würden sich die
+                    Daten holen, verarbeiten und weiterleiten. Die Abteilung für
+                    Stammdaten würde dann noch die letzten Anpassungen vornehmen
+                    und die Vollständigkeit absegnen. Ab diesem Zeitpunkt wären
+                    die Produktdaten dann bereit, um sie an die entsprechenden
+                    Subsysteme wie ERP oder Online Shop weiterzuleiten. Diese
+                    neue Form der Organisation würde die oben schon genannten
+                    Vorteile mit sich bringen sowie die Datenqualität
+                    verbessern, was auch Nebeneffekte wie eine geringere
+                    Retourenquote zur Folge hätte.
                   </p>
                   <div className="image-container">
                     <img
@@ -253,83 +342,38 @@ function Centralization() {
                       }}
                     />
                   </div>
-                  <p>
-                    Diese neue Art der Produktdatenorganisation reduzierte
-                    Fehler, verbesserte die Datenqualität und – was am
-                    wichtigsten war – beschleunigte den Prozess, Produkte von
-                    den Lieferanten zu den Kunden zu bringen. Rückblickend war
-                    es ein herausforderndes, aber lohnendes Projekt, das die
-                    Kraft der Datenzentralisierung und den Einsatz
-                    massgeschneiderter Software zur Optimierung von
-                    Geschäftsprozessen unter Beweis stellte.
-                  </p>
-
-                  <h2 id="meine-rolle">Meine Rolle</h2>
-                  <p>
-                    Im Rahmen dieses zweijährigen Projekts übernahm ich mehrere
-                    Rollen, darunter{" "}
-                    <strong>
-                      Scrum Master, Datenanalyst und Teilprojektleiter
-                    </strong>
-                    . In diesem Artikel konzentriere ich mich hauptsächlich auf
-                    meine Rolle als <strong>Scrum Master</strong>.
-                  </p>
-                  <p>
-                    Als <strong>Scrum Master</strong> war ich ein{" "}
-                    <strong>Servant Leader</strong>, der das Team zu hoher
-                    Leistungsfähigkeit führte. Ich coachte das Team täglich und
-                    stellte sicher, dass alle Scrum-Events – Daily Stand-ups,
-                    Sprint Planning, Sprint Reviews und Retrospektiven –
-                    effektiv durchgeführt wurden. Mein Ziel war klar: ein Umfeld
-                    zu schaffen, in dem das Team gedeihen konnte. Das Team
-                    übernahm agile Best Practices und verbesserte sich
-                    kontinuierlich. Es ergriff <strong>Eigeninitiative</strong>,
-                    organisierte sich selbst und strebte unabhängig nach
-                    Exzellenz. Desweiteren war ich ein{" "}
-                    <strong>Brückenbauer</strong> der das Team mit dem Product
-                    Owner und allen anderen Stakeholdern verbunden hat.
-                  </p>
-                  <p>
-                    Im Wesentlichen war ich{" "}
-                    <strong>kein Manager, sondern ein Enabler</strong>, der das
-                    Team dazu befähigt,{" "}
-                    <strong>
-                      selbstständig, anpassungsfähig und engagiert zu arbeiten
-                    </strong>
-                    .
-                  </p>
 
                   <h2 id="projektvorgehen">Projektvorgehen</h2>
                   <p>
-                    Unser Projektmanagementansatz kombinierte die strukturierte
-                    Planbarkeit des Wasserfallmodells mit der Flexibilität von
-                    Agile/Scrum. Während das Management einen vordefinierten
-                    Rahmen mit Phasen, Meilensteinen und grob definierten
-                    Arbeitspaketen benötigte, hatten wir innerhalb jeder Phase
-                    die Freiheit zur Anpassung.
+                    Unser Vorgehen kombinierte die strukturierte Planbarkeit des
+                    Wasserfallmodells mit der Flexibilität von agilem
+                    Projektmanagement. Während das Management des Unternehmens
+                    einen vordefinierten Rahmen mit Phasen, Meilensteinen und
+                    grob definierten Arbeitspaketen forderte, hatten wir
+                    innerhalb einer Phase Gestaltungsfreiheit.
                   </p>
                   <p>
                     Das ursprüngliche Phasenmodell umfasste Analyse,
-                    Spezifikationen, Entwicklung, Dokumentation & Schulung,
-                    Migration und Weiterentwicklung. Meilensteine zwischen den
+                    Spezifikationen, Entwicklung, Dokumentation und Schulung,
+                    Migration sowie Weiterentwicklung. Meilensteine zwischen den
                     Phasen markierten wichtige Errungenschaften, bei denen wir
                     unsere Ergebnisse dem Management und den internen
-                    Abteilungen präsentierten. Externe Faktoren, wie die globale
-                    Pandemie, zwangen uns jedoch zur Anpassung unseres
+                    Stakeholdern präsentierten. Externe Faktoren, wie die
+                    globale Pandemie, zwangen uns jedoch zur Anpassung unseres
                     Vorgehens.
                   </p>
                   <p>
-                    Um die Umsetzung zu vereinfachen, strukturierten wir das
-                    Projekt in drei neue Phasen: Foundation, Skeleton und
-                    Refinement. Die <strong>Foundation-Phase</strong>{" "}
-                    konzentrierte sich auf Spezifikationen, Prozessdefinitionen,
-                    einen Proof of Concept und die Zustimmung der Community. Die{" "}
-                    <strong>Skeleton-Phase</strong> lieferte ein Minimum Viable
-                    Product (MVP), das die Migration vom alten zum neuen PIM-
-                    System sicherstellen sollte. Schliesslich umfasste die{" "}
-                    <strong>Refinement-Phase</strong> nach der Migration
-                    Verbesserungen, die nicht für den Go-Live-Termin
-                    entscheidend waren.
+                    Um den Zeitplan einzuhalten mussten wir unser Vorgehen neu
+                    strukturieren. Das Projekt wurde neu in drei Phasen
+                    unterteilt:{" "}
+                    <strong>Foundation, Skeleton und Refinement</strong>. Die{" "}
+                    <strong>Foundation-Phase</strong> konzentrierte sich auf
+                    Spezifikationen, Prozessdefinitionen und einen Proof of
+                    Concept (PoC). Die <strong>Skeleton-Phase</strong> sollte
+                    ein Minimum Viable Product (MVP) liefern, das die Migration
+                    vom alten zum neuen PIM-System sicherstellte und
+                    schliesslich umfasste die <strong>Refinement-Phase</strong>{" "}
+                    alle Aufgaben die nicht Go-Live relevant waren.
                   </p>
                   <div className="image-container">
                     <img
@@ -343,19 +387,25 @@ function Centralization() {
                       }}
                     />
                   </div>
-
                   <h2 id="scrum-methodologie">Scrum-Methodologie</h2>
                   <p>
-                    Um die bestmöglichen Ergebnisse zu erzielen, haben wir einen
-                    iterativen Arbeitsablauf zwischen den Phasen eingeführt, bei
-                    dem wir Flexibilität über die strikte Einhaltung
-                    vordefinierter Schritte gestellt haben. Dieser iterative
-                    Ansatz integrierte Agile- und Scrum-Prinzipien in unseren
-                    Projektmanagementprozess. Jede Iteration folgte einem
-                    10-tägigen Zyklus, dem sogenannten Sprint. Der Sprint
-                    umfasst Scrum-Rituale wie Daily Stand-ups und
-                    Review-Sitzungen, auf die ich später im Detail eingehen
-                    werde.
+                    Um bestmöglich auf Veränderungen reagieren zu können, haben
+                    wir einen iterativen Entwicklungsansatz innerhalb einer
+                    Phasen definiert, bei dem Flexibilität über der strikten
+                    Einhaltung vordefinierter Schritte (Wasserfallmodell)
+                    gestellt wurde. Dieser Ansatz nennt sich Scrum (*Schwaber,
+                    K., & Sutherland, J. (2017). The Scrum Guide.*) und kommt
+                    vom agilen Projektmanagement. Ein Sprint (Iteration) wurde
+                    intern als 10-tägiger Arbeitszyklus definiert. Der Sprint
+                    umfasste Scrum-Rituale wie Daily Stand-ups, Reviews und
+                    Retrospektiven, auf welche später noch im Detail eingegangen
+                    wird. Intern hatten wir noch zusätzliche Anpassungen zu den
+                    Scrum-Ritualen vorgenommen, wie zum Beispiel das Einführen
+                    von Extended Daily. Dieses hatte mehr Teilnehmer (Experten)
+                    und war nützlich um komplexere Fragen beantworten zu können.
+                    Zu den jeweiligen Scrum-Events wurden diverse Tools genutzt
+                    und die Teilnehmer jeweils definierten, wie in der Abbildung
+                    ersichtlich.
                   </p>
                   <div className="image-container">
                     <img
@@ -369,70 +419,64 @@ function Centralization() {
                       }}
                     />
                   </div>
-
                   <h3 id="team">Team</h3>
                   <p>
                     Das Team war, ist und wird immer das wichtigste Element in
-                    einem Projekt sein. Ein starkes Team fördert die
+                    jedem Projekt sein. Ein solches Team fördert die
                     Zusammenarbeit, gewährleistet den Wissensaustausch und
                     ermöglicht kreatives Problemlösen. Ohne ein engagiertes und
                     gut strukturiertes Team werden selbst die besten Strategien
-                    und Technologien nicht die gewünschten Ergebnisse liefern.
-                    Unser Kernteam bestand aus 8 Mitgliedern: dem Scrum Master,
-                    dem PIM Owner, einem Business Analyst, einem Data Analyst,
-                    zwei PIM-Entwicklern, einem Online-Shop-Entwickler und einem
-                    Power-User des alten PIM-Systems.
+                    und Technologien nicht zum Projekterfolg führen. Unser
+                    Kernteam bestand aus 8 Mitgliedern: Scrum Master, PIM Owner,
+                    Business Analyst, Data Analyst, zwei PIM-Entwicklern, einem
+                    Online-Shop-Entwickler und einem Power-User des alten
+                    PIM-Systems.
                   </p>
-
                   <h3 id="backlog">Backlog</h3>
                   <p>
-                    Das Backlog ist ein zentrales Repository von Aufgaben, das
-                    die Arbeit für das Team organisiert und priorisiert. Es
-                    enthält User Stories, technische Anforderungen und
-                    Verbesserungen. Während des Sprints trug jedes Teammitglied
-                    unabhängig zum Backlog bei. Der PIM Owner übernahm jedoch
-                    häufig die Verantwortung für dessen Verwaltung und
-                    Verfeinerung, damit sich die Entwickler auf ihre technischen
-                    Aufgaben konzentrieren konnten.
+                    Das Backlog definiert einen Ort an dem alle offenen Aufgaben
+                    erfasst wurden. In unserem Fall wurde das Digital mithilfe
+                    eines Tools gemacht. Jedoch kann dies auch physisch auf
+                    einem Flipchart mit Post-Its gemacht werden. Während des
+                    Sprints wurden Aufgaben von den Projektmitarbeitern
+                    selbständig ins Backlog hinzugefügt und priorisiert. Vor dem
+                    Beginn des nächsten Sprints, wurde dann noch gemeinsam ein
+                    letztes Mal darüber geschaut, um sicherzustellen das keine
+                    wichtigen Aufgaben untergegangen sind.
                   </p>
-
                   <h3 id="epics">Epics</h3>
                   <p>
-                    Jede Phase des Projekts erforderte eine gewisse Struktur, um
-                    die Komplexität zu bewältigen. Hier kamen die Epics ins
-                    Spiel. Sie gruppierten verwandte Aufgaben, wodurch es dem
-                    Team leichter fiel, ihren Beitrag zu verstehen, und den
-                    Stakeholdern, unseren Fortschritt nachzuverfolgen. Wenn
-                    Aufgaben zu umfassend waren, verfeinerten wir sie in
-                    kleinere, handlungsfähige Schritte.
+                    Weil die Projektphasen einen langen Zeitraum umspannten,
+                    wurden sie in mehrere Epics runter gebrochen. Epics waren
+                    Teilziele die innerhalb einer Phase erledigt werden mussten.
+                    Die Aufgaben aus dem Backlog wurden jeweils einem Epics
+                    zugeordnet und ermöglichten dem Projektteam eine bessere
+                    Übersicht. Desweiteren konnten die Stakeholder besser
+                    nachvollziehen, an was wir gerade gearbeitet hatten.
                   </p>
-
                   <h3 id="planning">Planning</h3>
                   <p>
-                    Die folgende Abbildung veranschaulicht, wie ich die
-                    Sprint-Planning sowohl vor als auch nach unserem
-                    Team-Planungsevent angegangen bin. Zunächst priorisierte
-                    jedes Teammitglied seine Tickets im Backlog unabhängig und
-                    verschob sie ins Sprint-Board. Während der
-                    Sprint-Planungssitzung reflektierte ich zunächst kurz über
-                    unsere vergangene Leistung – haben wir unsere Ziele erreicht
-                    oder nicht? Falls nicht, besprach ich mit dem Team, wie wir
-                    diese Ziele optimieren könnten, um beim nächsten Mal
-                    erfolgreicher zu sein.
+                    Die folgende Abbildung veranschaulicht was vor, während und
+                    nach dem Sprint-Planning alles gemacht werden musste. Die
+                    Teammitglieder mussten sich vor jedem Sprint vorbereiten und
+                    die Aufgaben im Backlog priorisieren. Zu Beginn des Meetings
+                    hatten wir über die vergangenen Leistungen gesprochen, zum
+                    Beispiel ob wir unsere Ziele erreicht hatten oder nicht?
+                    Falls die Ziele nicht erreicht worden waren, musste die
+                    Aufgabe oder das Ziel entsprechend angepasst werden.
                   </p>
                   <p>
-                    Wenn unsere Ziele erreicht wurden, richtete ich den Fokus
-                    auf die Definition neuer Ziele basierend auf den Tickets im
-                    aktuellen Sprint-Board. Wir überprüften jedes Ticket kurz,
-                    diskutierten, ob unsere Schätzungen realistisch waren oder
-                    angepasst werden mussten. Schliesslich stellte ich sicher,
-                    dass wir das Backlog ein letztes Mal gemeinsam überprüften.
-                    Dieser Schritt sollte sicherstellen, dass wir nichts
-                    übersehen hatten, das möglicherweise eine höhere Priorität
-                    für den kommenden Sprint erforderte.
+                    Dann richteten wir den Fokus auf die Definition neuer Ziele,
+                    basierend auf den Aufgaben im aktuellen Sprint. Wir
+                    überprüften jede Aufgabe kurz bezüglich Zeitschätzung und
+                    diskutierten ob diese realistisch waren oder angepasst
+                    werden mussten. Schliesslich wurde ein letztes Mal ein Blick
+                    auf das Backlog geworfen, um sicherzustellen dass keine
+                    Aufgaben übersehen wurden, die hohe Priorität für den
+                    kommenden Sprint hatten.
                   </p>
-                  {/* TODO: rewrite image content */}
-                  {/* <div className="image-container">
+
+                  <div className="image-container">
                     <img
                       src={planning}
                       alt="Planning"
@@ -443,96 +487,75 @@ function Centralization() {
                         borderRadius: "6px",
                       }}
                     />
-                  </div> */}
-
-                  <h3 id="daily-stand-ups">Daily Stand-ups</h3>
+                  </div>
+                  <h3 id="daily">Daily</h3>
                   <p>
-                    Daily Stand-ups waren immer kurze, aber effektive Meetings,
-                    die in der Regel nur 15 bis 30 Minuten dauerten. Ich habe
-                    mein Team dazu ermutigt, diese Meetings im Stehen
-                    abzuhalten, da diese einfache Veränderung uns auf natürliche
-                    Weise engagierter und prägnanter machte. Jeden Morgen
-                    stellte ich drei einfache Fragen: Was hast du gestern
-                    erreicht? Was ist dein Ziel für heute? Gibt es Hindernisse,
-                    die deinen Fortschritt verlangsamen?
+                    Daily Stand-ups waren kurze und effiziente Meetings, die in
+                    der Regel 15 bis 30 Minuten dauerten. Diese wurden im Stehen
+                    abgehalten, um aktiv bei der Sache zu bleiben. Jeden Morgen
+                    wurden drei simple Fragen beantwortet: Was hast du gestern
+                    erreicht? Was möchtest du heute erreichen? Gibt es
+                    Hindernisse, die deinen Fortschritt behindern?
                   </p>
                   <p>
-                    Wir haben uns angewöhnt, Unterbrechungen während des
-                    Arbeitstages zu minimieren, indem wir unnötige Nachrichten
-                    und Ablenkungen vermieden. Dadurch wurde das Daily Stand-up
-                    zu einer Gelegenheit für jedes Teammitglied, offen mit allen
-                    Anwesenden zu kommunizieren. Falls bestimmte Themen eine
-                    tiefere Diskussion erforderten, nahm ich mir anschliessend
-                    Zeit für Einzelgespräche.
+                    Wir haben uns angewöhnt, Nachrichten und andere Ablenkungen
+                    während des Arbeitstages zu minimieren. Dadurch wurde das
+                    Daily Stand-up zu einer Gelegenheit für jedes Teammitglied,
+                    offen mit allen Anwesenden zu kommunizieren. Falls bestimmte
+                    Themen eine tiefere Diskussion erforderten, wurde dies
+                    bilateral weitergeführt.
                   </p>
-
                   <h2 id="kommunikation">Kommunikation</h2>
                   <p>
-                    Während des Projekts stellte ich fest, dass unsere
-                    Kommunikation mit internen Stakeholdern nicht so effektiv
-                    war, wie sie sein könnte. Das Feedback zu den Anforderungen
-                    kam zu langsam an, und die Abteilungen waren sich unseres
-                    aktuellen Fortschritts nicht vollständig bewusst. Monatliche
-                    oder zweimonatliche Reviews boten einfach nicht den
-                    dynamischen Informationsaustausch, den wir benötigten.
+                    Während des Projekts stellten wir fest, dass unsere
+                    Kommunikation mit den internen Stakeholdern nicht ideal war.
+                    Das Feedback zu unseren Anfragen kam zu spät und die
+                    Abteilungen waren über unseren aktuellen Arbeitsstand nicht
+                    richtig im Bild. Monatliche oder zweimonatliche Reviews
+                    boten nicht den erforderlichen Austausch den wir benötigten.
                   </p>
                   <p>
-                    Um dies zu verbessern, initiierte ich ein wöchentliches
+                    Um dies zu verbessern, initiierten wir ein wöchentliches
                     Community-Meeting, das speziell für interdisziplinäre
-                    Q&A-Sitzungen konzipiert war. Das Hauptziel war, unser
-                    Zentralisierungsprojekt eng mit den geschäftlichen
-                    Anforderungen abzustimmen. Die Stakeholder konnten die
-                    Entwicklung des PIM-Systems direkt beeinflussen, indem sie
-                    ihre Anforderungen kommunizierten.
+                    Q&A-Sitzungen konzipiert war. Das Hauptziel war, das Projekt
+                    auf die geschäftlichen Anforderungen abzustimmen. Die
+                    Stakeholder konnten die Entwicklung des Projektes direkt
+                    beeinflussen, indem sie uns ihre Anforderungen direkt
+                    kommunizierten.
                   </p>
                   <p>
-                    Durch die Dokumentation jeder Sitzung konnte ich
+                    Durch die Dokumentation jeder Sitzung konnte wir
                     Unstimmigkeiten klären, auf frühere Diskussionen
-                    zurückgreifen, wenn etwas unklar war, und den Stakeholdern
-                    deutlich machen, dass ihr Input geschätzt wurde und die
-                    Richtung des Projekts direkt beeinflusste.
+                    zurückgreifen, und den Stakeholdern sichtbar machen, dass
+                    ihr Input geschätzt wurde und das Projekt in die richtige
+                    Richtung sich entwickelte.
                   </p>
-                  <p>
-                    Hier ist ein Auszug aus der Community-Seite mit den
-                    Teilnehmern und unseren dokumentierten Diskussionen.
-                  </p>
-                  <div className="image-container">
-                    <img
-                      src={community}
-                      alt="Community"
-                      className="img-fluid mb-3"
-                      style={{
-                        width: "90%",
-                        height: "auto",
-                        borderRadius: "6px",
-                      }}
-                    />
-                  </div>
                   <h2 id="dokumentation">Dokumentation</h2>
                   <p>
-                    Die Dokumentation hat während meines Projekts vielseitige
-                    Rollen gespielt. Zu Beginn war mein Hauptziel, den internen
-                    Stakeholdern Klarheit und Greifbarkeit zu vermitteln. Da wir
-                    noch keine funktionierende Plattform hatten, wirkten die
-                    Diskussionen oft abstrakt – sie drehten sich um
-                    Datenmodelle, Attribute, APIs und theoretische Konzepte. Um
-                    diese Lücke zu überbrücken, erstellte ich die Dokumentation,
-                    die unsere Vision anschaulich darstellte, den Zweck des
-                    Projekts klar kommunizierte und unseren Fortschritt
-                    transparent aufzeigte.
+                    Die Dokumentation hat während des Projekts vielseitige
+                    Rollen gespielt. Zu Beginn war das Hauptziel, den internen
+                    Stakeholdern das Projekt greifbarer und verständlicher zu
+                    machen. Da noch keine neue PIM Plattform vorhanden war,
+                    wirkten die Präsentationen während der Reviews oft Abstrakt.
+                    Die Diskussionen drehten sich um Datenmodelle, APIs und
+                    theoretische Konzepte und waren nicht greifbar genug. Um
+                    diesem Problem entgegen zu wirken, erstellte ich eine
+                    Dokumentation, die unsere Vision anschaulich darstellte, den
+                    Nutzen des Projekts klar kommunizierte und unseren
+                    Fortschritt transparent aufzeigte.
                   </p>
                   <p>
                     Nach dem Start der Plattform entwickelte sich die
-                    Dokumentation weiter und erfüllte ihren Hauptzweck: Sie
-                    diente als technische Referenz. Sie wurde zur zentralen
+                    Dokumentation weiter und diente einem neuen Hauptzweck,
+                    nämlich als technische Referenz. Sie wurde zur zentralen
                     Ressource für das Verständnis der Systemarchitektur, für
-                    Richtlinien zur effektiven Nutzung der Plattform und für die
-                    Behandlung verschiedener Themen im Master Data Management.
+                    Richtlinien zur effektiven Nutzung der PIM Plattform und für
+                    die Diskussion verschiedener Themen im Bereich Master Data
+                    Management.
                   </p>
                   <p>
-                    Nachfolgend habe ich einen Auszug aus der Dokumentation
-                    eingefügt, die ich im Laufe des Projekts erstellt und
-                    gepflegt habe.
+                    Die folgende Abbildung ist ein Auszug aus der Dokumentation,
+                    die ich im Laufe des Projekts erstellt und gepflegt habe.
                   </p>
                   <div className="image-container">
                     <img
@@ -548,39 +571,38 @@ function Centralization() {
                   </div>
                   <h2 id="reflexion">Reflexion</h2>
                   <p>
-                    Der Übergang von einem dezentralisierten zu einem
-                    zentralisierten Produktdatenmanagement-Ansatz war eine
-                    komplexe Herausforderung. Trotz der Rückschläge durch
-                    unvorhergesehene Ereignisse wie eine Pandemie und den
-                    Ausfall von Teammitgliedern waren die Widerstandsfähigkeit
-                    und Anpassungsfähigkeit des Teams bemerkenswert.
+                    Der Übergang von einem dezentralen zu einem zentralen
+                    Produktdatenmanagement, war eine komplexe Herausforderung.
+                    Trotz der Rückschläge durch unvorhergesehene Ereignisse wie
+                    eine Pandemie und den Ausfall von Teammitgliedern waren die
+                    Widerstandsfähigkeit und Anpassungsfähigkeit des Teams
+                    bemerkenswert.
                   </p>
                   <p>
-                    Die Übernahme der Rolle des Scrum Masters hat meine
-                    Fähigkeiten im Bereich des Servant Leaderships
-                    weiterentwickelt. Es war äusserst befriedigend zu
-                    beobachten, wie das Team zunehmend selbstständig wurde,
-                    gestärkt durch meine Unterstützung. Diese Rolle hat meine
-                    Überzeugung bestätigt, dass Führung durch Empowerment nicht
-                    nur die Produktivität steigert, sondern auch Eigeninitiative
-                    und kontinuierliche Verbesserung fördert.
+                    Die Rolle als Scrum Masters hat meine Leadership Fähigkeiten
+                    weiterentwickelt. Es war äusserst motivierend zu sehen, wie
+                    das Team zunehmend selbstständiger wurde, gestärkt durch
+                    meine Unterstützung. Diese Rolle hat meine Überzeugung
+                    bestätigt, dass Führung durch Empowerment nicht nur die
+                    Produktivität steigert, sondern auch Eigeninitiative und
+                    kontinuierliche Verbesserung fördert.
                   </p>
                   <p>
                     Die Einführung wöchentlicher interdisziplinärer Meetings
                     verbesserte die Einbindung der internen Stakeholder und
                     unsere Abstimmung mit den geschäftlichen Anforderungen.
                     Rückblickend erkenne ich die Bedeutung transparenter
-                    Kommunikation für den Erfolg eines Projekts. Im Nachhinein
-                    hätte ich diese Interaktionen jedoch früher im
-                    Projektlebenszyklus initiieren sollen, um die Stakeholder
-                    schneller auf unsere Seite zu bringen.
+                    Kommunikation für den Erfolg eines komplexen Projekts
+                    besser. Die Interaktionen hätten früher im Projektzyklus
+                    initiieren werden sollen, um das Verständnis der Stakeholder
+                    bezüglich des Projektes zu verbessern.
                   </p>
                   <p>
                     Für zukünftige Projekte werde ich besonderen Wert auf
-                    proaktive Kommunikation legen. Sie reduziert
-                    Missverständnisse und stärkt das Vertrauen in das
-                    Projektteam. Zudem bleibt die Weiterentwicklung meiner Soft
-                    Skills, insbesondere in den Bereichen Kommunikation und
+                    proaktive Kommunikation legen. Dies reduziert
+                    Missverständnisse und stärkt das Vertrauen in das Projekt
+                    und Projektteam. Zudem bleibt die Weiterentwicklung meiner
+                    Soft Skills, insbesondere in den Bereichen Kommunikation und
                     Konfliktlösung, eine Priorität. Insgesamt war diese
                     Erfahrung äusserst wertvoll. Sie hat sowohl mein technisches
                     Wissen als auch meine Führungskompetenzen gestärkt – eine

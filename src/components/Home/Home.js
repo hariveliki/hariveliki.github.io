@@ -75,7 +75,7 @@ function Home() {
                       href="/#/blog/onboarding"
                       style={{ textDecoration: "none" }}
                     >
-                      PIM & Onboarding
+                      PIM Microservices
                     </a>
                   </p>
                   <p>Machine Learning</p>
@@ -86,7 +86,7 @@ function Home() {
                   </p>
                   <p>
                     <a href="/#/blog/pim" style={{ textDecoration: "none" }}>
-                      Scrum Master & Entwickler
+                      Scrum Master vs Entwickler
                     </a>
                   </p>
                   <img
@@ -137,7 +137,7 @@ function Home() {
                       href="/#/blog/centralization"
                       style={{ textDecoration: "none" }}
                     >
-                      Daten Zentralisierung
+                      PIM Daten Zentralisierung
                     </a>
                   </p>
                   {/* <p>
