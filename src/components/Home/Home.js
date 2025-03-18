@@ -71,13 +71,13 @@ function Home() {
                     Software / AI
                   </h3>
                   <p>
-                    {/* <a
+                    <a
                       href="/#/blog/onboarding"
                       style={{ textDecoration: "none" }}
                     >
-                      PIM Microservices
-                    </a> */}
                     PIM, Onboarding & Microservices
+                    </a>
+                    
                   </p>
                   <p>Machine Learning</p>
                   <p>

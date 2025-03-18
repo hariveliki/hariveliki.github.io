@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./onboarding.css";
+import systemLandscape from "../../Assets/Blog/Onboarding/system-landscape.jpeg";
+import onboardingIst from "../../Assets/Blog/Onboarding/ist.jpg";
+import onboardingSoll from "../../Assets/Blog/Onboarding/soll.jpg";
 
 function Onboarding() {
   const [activeSection, setActiveSection] = useState("");
@@ -98,22 +101,24 @@ function Onboarding() {
               >
                 Microservices
               </span>
-            </li>
-            <li className="toc-h3">
-              <span
-                data-target="onboarder"
-                className={activeSection === "onboarder" ? "active" : ""}
-              >
-                Onboarder
-              </span>
-            </li>
-            <li className="toc-h3">
-              <span
-                data-target="web-crawler"
-                className={activeSection === "web-crawler" ? "active" : ""}
-              >
-                Web Crawler
-              </span>
+              <ul className="toc-list">
+                <li className="toc-h3">
+                  <span
+                    data-target="onboarder"
+                    className={activeSection === "onboarder" ? "active" : ""}
+                  >
+                    Onboarder
+                  </span>
+                </li>
+                <li className="toc-h3">
+                  <span
+                    data-target="web-crawler"
+                    className={activeSection === "web-crawler" ? "active" : ""}
+                  >
+                    Web Crawler
+                  </span>
+                </li>
+              </ul>
             </li>
           </ul>
         </li>
@@ -203,7 +208,9 @@ function Onboarding() {
                 }}
               >
                 <span style={{ color: "#0d6efd", textDecoration: "underline" }}>
-                  Onboarding Millions of Products
+                  Revolutionizing Retail:
+                  <br />
+                  Automating Product Data Onboarding
                 </span>
               </h1>
 
@@ -336,39 +343,63 @@ function Onboarding() {
                     high-quality product information. All of which are important
                     for a smooth onboarding process.
                   </p>
-
                   <h3 id="pim">PIM</h3>
-                  <p>[PIM content will go here]</p>
+                  <p></p>
 
-                  <h3 id="microservices">Microservices</h3>
-                  <p>[Microservices content will go here]</p>
+                  <h2 id="microservices">Microservices</h2>
+                  <p></p>
 
                   <h3 id="onboarder">Onboarder</h3>
-                  <p>[Onboarder content will go here]</p>
+                  <p></p>
 
                   <h3 id="web-crawler">Web Crawler</h3>
-                  <p>[Web Crawler content will go here]</p>
-
+                  <p></p>
+                  <div className="image-container">
+                    <img
+                      src={systemLandscape}
+                      alt="System Landscape"
+                      className="img-fluid mb-3"
+                      style={{
+                        width: "100%",
+                        height: "auto",
+                        borderRadius: "6px",
+                      }}
+                    />
+                  </div>
                   <h2 id="vision">Vision</h2>
-                  <p>[Vision overview content will go here]</p>
+                  <p></p>
 
                   <h3 id="onboarder-2.0">Onboarder 2.0</h3>
-                  <p>[Onboarder 2.0 content will go here]</p>
+                  <p></p>
+                  <div className="image-container">
+                    <img
+                      src={onboardingIst}
+                      alt="onboarding ist"
+                      className="img-fluid mb-3"
+                    />
+                  </div>
+                  <div className="image-container">
+                    <img
+                      src={onboardingSoll}
+                      alt="onboarding soll"
+                      className="img-fluid mb-3"
+                    />
+                  </div>
 
                   <h3 id="web-crawler-2.0">Web Crawler 2.0</h3>
-                  <p>[Web Crawler 2.0 content will go here]</p>
+                  <p></p>
 
                   <h3 id="rules">Rules</h3>
-                  <p>[Rules content will go here]</p>
+                  <p></p>
 
                   <h3 id="dashboard">Dashboard</h3>
-                  <p>[Dashboard content will go here]</p>
+                  <p></p>
 
                   <h2 id="implications">Implications</h2>
-                  <p>[Implications content will go here]</p>
+                  <p></p>
 
                   <h2 id="conclusion">Conclusion</h2>
-                  <p>[Conclusion content will go here]</p>
+                  <p></p>
                 </Col>
               </Row>
             </div>
