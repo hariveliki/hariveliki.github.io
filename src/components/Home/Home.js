@@ -71,12 +71,13 @@ function Home() {
                     Software / AI
                   </h3>
                   <p>
-                    <a
+                    {/* <a
                       href="/#/blog/onboarding"
                       style={{ textDecoration: "none" }}
                     >
                       PIM Microservices
-                    </a>
+                    </a> */}
+                    PIM, Onboarding & Microservices
                   </p>
                   <p>Machine Learning</p>
                   <p>
@@ -253,11 +254,27 @@ function Home() {
                     className="p-3"
                     style={{ backgroundColor: "#f8f9fa", borderRadius: "10px" }}
                   >
-                    <p style={{ fontStyle: "italic" }}>"Text"</p>
-                    <p className="mb-0">
-                      <strong>- Person</strong>
+                    <p style={{ fontStyle: "italic" }}>
+                      "Mithilfe von Haris konnten wir LLMs nutzen um unsere
+                      Prozesse signifikant zu optimieren."
                     </p>
-                    <small>Function</small>
+                    <p className="mb-0">
+                      <a
+                        href="https://www.linkedin.com/in/i-am-neven/"
+                        style={{ textDecoration: "none" }}
+                      >
+                        <strong>- Neven Nikic</strong>
+                      </a>
+                    </p>
+                    <small>
+                      E-Commerce Leiter @{" "}
+                      <a
+                        href="https://www.mobileparts.ch/"
+                        style={{ textDecoration: "none" }}
+                      >
+                        mobileparts
+                      </a>
+                    </small>
                   </div>
                 </Col>
                 <Col md={6} className="mb-4">
@@ -265,25 +282,42 @@ function Home() {
                     className="p-3"
                     style={{ backgroundColor: "#f8f9fa", borderRadius: "10px" }}
                   >
-                    <p style={{ fontStyle: "italic" }}>"Text"</p>
-                    <p className="mb-0">
-                      <strong>- Person</strong>
+                    <p style={{ fontStyle: "italic" }}>
+                      "Dank Haris habe ich jetzt meinen eigenen{" "}
+                      <a
+                        href="https://mareika.ch/"
+                        style={{ textDecoration: "none" }}
+                      >
+                        Onlinehshop
+                      </a>
+                      "
                     </p>
-                    <small>Function</small>
+                    <p className="mb-0">
+                      <a
+                        href="https://www.instagram.com/mareika.art"
+                        style={{ textDecoration: "none" }}
+                      >
+                        <strong>- Marianne E. Kaufmann</strong>
+                      </a>
+                    </p>
+                    <small>Freischaffende Künstlerin</small>
                   </div>
                 </Col>
-                <Col md={6} className="mb-4">
+                {/* <Col md={6} className="mb-4">
                   <div
                     className="p-3"
                     style={{ backgroundColor: "#f8f9fa", borderRadius: "10px" }}
                   >
-                    <p style={{ fontStyle: "italic" }}>"Text"</p>
-                    <p className="mb-0">
-                      <strong>- Person</strong>
+                    <p style={{ fontStyle: "italic" }}>
+                      "Haris motiviert mich Dinge anzupacken und meine Träume zu
+                      verwirklichen"
                     </p>
-                    <small>Function</small>
+                    <p className="mb-0">
+                      <strong>- Andrei Cozlac</strong>
+                    </p>
+                    <small>Ehemaliger Tänzer Opernhaus Zürich & Genf</small>
                   </div>
-                </Col>
+                </Col> */}
               </Row>
             </div>
           </Col>
