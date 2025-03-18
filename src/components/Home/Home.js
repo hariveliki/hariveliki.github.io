@@ -31,9 +31,14 @@ function Home() {
                 }}
               />
               <div className="mt-4">
-                <p style={{ color: "#666", fontSize: "1.1rem" }}>
-                  Serveant Leader, Industrial Engineer, Software Developer, Data
-                  Scientist, or simply a Generalist.
+                <p
+                  style={{
+                    color: "#0d6efd",
+                    fontSize: "1.1rem",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Problem Solver
                 </p>
               </div>
             </div>
@@ -42,136 +47,187 @@ function Home() {
           {/* Services and Reviews Section - 2/3 width */}
           <Col md={7} className="mx-auto">
             {/* Services Section */}
-            <div className="p-4 mb-5">
-              <h2 style={{ textDecoration: "underline", marginTop: "4px" }} className="mb-4">
-                Services
+            <div className="p-4 mb-1">
+              <h2
+                style={{
+                  textDecoration: "underline",
+                  marginTop: "4px",
+                  fontWeight: "bold",
+                }}
+                className="mb-4"
+              >
+                Erfahrung
               </h2>
+              <Row style={{ marginBottom: "2rem" }}>
+                <Col md={6} className="mb-4">
+                  <h3
+                    style={{
+                      // fontWeight: "bold",
+                      marginBottom: "1.5rem",
+                      // color: "#0d6efd",
+                      textDecoration: "underline",
+                    }}
+                  >
+                    Software / AI
+                  </h3>
+                  <p>
+                    <a
+                      href="/#/blog/onboarding"
+                      style={{ textDecoration: "none" }}
+                    >
+                      PIM Microservices
+                    </a>
+                  </p>
+                  <p>Machine Learning</p>
+                  <p>
+                    <a href="/#/blog/mps" style={{ textDecoration: "none" }}>
+                      Large Language Models
+                    </a>
+                  </p>
+                  <p>
+                    <a href="/#/blog/pim" style={{ textDecoration: "none" }}>
+                      Scrum Master vs Entwickler
+                    </a>
+                  </p>
+                  <img
+                    src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/svgs/solid/rocket.svg"
+                    alt="Rocket Icon"
+                    style={{
+                      width: "24px",
+                      height: "24px",
+                      marginTop: "0.5rem",
+                      marginRight: "1rem",
+                    }}
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/svgs/solid/magic.svg"
+                    alt="Magic Wand Icon"
+                    style={{
+                      width: "24px",
+                      height: "24px",
+                      marginTop: "0.5rem",
+                      marginRight: "1rem",
+                    }}
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/openai.svg"
+                    alt="OpenAI AI Icon"
+                    style={{
+                      width: "24px",
+                      height: "24px",
+                      marginTop: "0.5rem",
+                      marginRight: "1rem",
+                    }}
+                  />
+                </Col>
+                <Col md={6} className="mb-4">
+                  <h3
+                    style={{
+                      // fontWeight: "bold",
+                      marginBottom: "1.5rem",
+                      // color: "#0d6efd",
+                      textDecoration: "underline",
+                    }}
+                  >
+                    Projekt Management
+                  </h3>
+                  <p>AI-Interaktion mit Ihrem Gebäude</p>
+                  <p>
+                    <a
+                      href="/#/blog/centralization"
+                      style={{ textDecoration: "none" }}
+                    >
+                      PIM Daten Zentralisierung
+                    </a>
+                  </p>
+                  {/* <p>
+                    <a href="/#">Change Management</a>
+                  </p>
+                  <p>
+                    <a href="/#">Product Life Cycle Management</a>
+                  </p>
+                  <p>
+                    <a href="/#">Managing Returns while Growing Rapidly</a>
+                  </p> */}
+                  <img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/homeassistant.svg"
+                    alt="Futuristic Building Icon"
+                    style={{
+                      width: "24px",
+                      height: "24px",
+                      marginTop: "0.5rem",
+                      marginRight: "1rem",
+                    }}
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/graphql.svg"
+                    alt="Graph Icon"
+                    style={{
+                      width: "24px",
+                      height: "24px",
+                      marginTop: "0.5rem",
+                      marginRight: "1rem",
+                    }}
+                  />
+                </Col>
+              </Row>
               <Row>
-                <Col md={4} className="mb-4">
-                  <p
+                <Col md={6} className="mb-4">
+                  <h3
                     style={{
-                      fontWeight: "bold",
-                      marginBottom: "0.5rem",
-                      color: "#0d6efd",
+                      // fontWeight: "bold",
+                      marginBottom: "1.5rem",
+                      // color: "#0d6efd",
                       textDecoration: "underline",
                     }}
                   >
-                    Software / KI
+                    Leadership
+                  </h3>
+                  <p>
+                    <a
+                      href="/#/blog/centralization"
+                      style={{ textDecoration: "none" }}
+                    >
+                      Servant Leadership
+                    </a>
                   </p>
-                  <p>Custom software solutions</p>
+                  <p>Management Retourenabteilung</p>
                   <img
-                    src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/python.svg"
-                    alt="Software/AI Icon"
+                    src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/handshake.svg"
+                    alt="Servant Leadership Icon"
                     style={{
                       width: "24px",
                       height: "24px",
                       marginTop: "0.5rem",
+                      marginRight: "1rem",
                     }}
                   />
-                </Col>
-                <Col md={4} className="mb-4">
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      marginBottom: "0.5rem",
-                      color: "#0d6efd",
-                      textDecoration: "underline",
-                    }}
-                  >
-                    PIM / ERP
-                  </p>
-                  <p>Business systems integration</p>
                   <img
-                    src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/sap.svg"
-                    alt="PIM/ERP Icon"
+                    src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/users.svg"
+                    alt="Management Icon"
                     style={{
                       width: "24px",
                       height: "24px",
                       marginTop: "0.5rem",
+                      marginRight: "1rem",
                     }}
                   />
                 </Col>
-                <Col md={4} className="mb-4">
-                  <p
+                <Col md={6} className="mb-4">
+                  <h3
                     style={{
-                      fontWeight: "bold",
-                      marginBottom: "0.5rem",
-                      color: "#0d6efd",
-                      textDecoration: "underline",
-                    }}
-                  >
-                    Project Management
-                  </p>
-                  <p>Digital transformation</p>
-                  <img
-                    src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/trello.svg"
-                    alt="Project Management Icon"
-                    style={{
-                      width: "24px",
-                      height: "24px",
-                      marginTop: "0.5rem",
-                    }}
-                  />
-                </Col>
-                <Col md={4} className="mb-4">
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      marginBottom: "0.5rem",
-                      color: "#0d6efd",
-                      textDecoration: "underline",
-                    }}
-                  >
-                    Online Shops
-                  </p>
-                  <p>E-commerce solutions</p>
-                  <img
-                    src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/shopify.svg"
-                    alt="Online Shops Icon"
-                    style={{
-                      width: "24px",
-                      height: "24px",
-                      marginTop: "0.5rem",
-                    }}
-                  />
-                </Col>
-                <Col md={4} className="mb-4">
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      marginBottom: "0.5rem",
-                      color: "#0d6efd",
-                      textDecoration: "underline",
-                    }}
-                  >
-                    Web Pages
-                  </p>
-                  <p>Modern web development</p>
-                  <img
-                    src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/react.svg"
-                    alt="Web Pages Icon"
-                    style={{
-                      width: "24px",
-                      height: "24px",
-                      marginTop: "0.5rem",
-                    }}
-                  />
-                </Col>
-                <Col md={4} className="mb-4">
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      marginBottom: "0.5rem",
-                      color: "#0d6efd",
+                      // fontWeight: "bold",
+                      marginBottom: "1.5rem",
+                      // color: "#0d6efd",
                       textDecoration: "underline",
                     }}
                   >
                     Coaching
-                  </p>
-                  <p>Technical mentoring</p>
+                  </h3>
+                  <p>Strategie, Motivation und Realisierung</p>
                   <img
-                    src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/microsoftteams.svg"
-                    alt="Coaching Icon"
+                    src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/goal.svg"
+                    alt="Target with Arrow Icon"
                     style={{
                       width: "24px",
                       height: "24px",
@@ -184,7 +240,10 @@ function Home() {
 
             {/* Reviews Section */}
             <div className="p-4">
-              <h2 style={{ textDecoration: "underline" }} className="mb-4">
+              <h2
+                style={{ textDecoration: "underline", fontWeight: "bold" }}
+                className="mb-4"
+              >
                 Reviews
               </h2>
               <Row>
@@ -194,9 +253,7 @@ function Home() {
                     className="p-3"
                     style={{ backgroundColor: "#f8f9fa", borderRadius: "10px" }}
                   >
-                    <p style={{ fontStyle: "italic" }}>
-                      "Text"
-                    </p>
+                    <p style={{ fontStyle: "italic" }}>"Text"</p>
                     <p className="mb-0">
                       <strong>- Person</strong>
                     </p>
@@ -208,9 +265,7 @@ function Home() {
                     className="p-3"
                     style={{ backgroundColor: "#f8f9fa", borderRadius: "10px" }}
                   >
-                    <p style={{ fontStyle: "italic" }}>
-                      "Text"
-                    </p>
+                    <p style={{ fontStyle: "italic" }}>"Text"</p>
                     <p className="mb-0">
                       <strong>- Person</strong>
                     </p>
@@ -222,9 +277,7 @@ function Home() {
                     className="p-3"
                     style={{ backgroundColor: "#f8f9fa", borderRadius: "10px" }}
                   >
-                    <p style={{ fontStyle: "italic" }}>
-                      "Text"
-                    </p>
+                    <p style={{ fontStyle: "italic" }}>"Text"</p>
                     <p className="mb-0">
                       <strong>- Person</strong>
                     </p>
