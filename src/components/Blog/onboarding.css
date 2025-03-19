@@ -69,27 +69,33 @@
 }
 
 .project-description table {
-  color: black;
   width: 100%;
-  margin: 2rem 0;
   border-collapse: collapse;
-  border: 1px solid #dee2e6;
+  background-color: #0d6efd !important;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white !important;
+  margin: 2rem 0;
 }
 
 .project-description th,
 .project-description td {
   padding: 1rem;
-  border: 1px solid #dee2e6;
+  border: 1px solid white;
   text-align: left;
+  color: white !important;
+  background-color: #0d6efd !important;
 }
 
+.project-description thead th,
 .project-description th {
-  background-color: #f8f9fa;
+  background-color: #0d6efd !important;
   font-weight: bold;
+  color: white !important;
 }
 
 .project-description tr:nth-child(even) {
-  background-color: #f8f9fa;
+  background-color: #0d6efd !important;
 }
 
 @media (max-width: 768px) {

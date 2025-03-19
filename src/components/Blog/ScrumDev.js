@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./pim.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./scrumdev.css";
 
 function ScrumDev() {
   const [activeSection, setActiveSection] = useState("");
@@ -675,7 +676,7 @@ function ScrumDev() {
                           </td>
                         </tr>
                         <tr>
-                          <td className="row-header">Commun.</td>
+                          <td className="row-header">Communication</td>
                           <td>x</td>
                           <td>x</td>
                           <td>
