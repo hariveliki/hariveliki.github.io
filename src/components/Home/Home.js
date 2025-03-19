@@ -86,8 +86,8 @@ function Home() {
                     </a>
                   </p>
                   <p>
-                    <a href="/#/blog/pim" style={{ textDecoration: "none" }}>
-                      Scrum Master vs Entwickler
+                    <a href="/#/blog/scrumdev" style={{ textDecoration: "none" }}>
+                      Scrum Master und Entwickler
                     </a>
                   </p>
                   <img

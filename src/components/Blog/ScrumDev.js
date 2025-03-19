@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./pim.css";
 
-function Pim() {
+function ScrumDev() {
   const [activeSection, setActiveSection] = useState("");
 
   useEffect(() => {
@@ -179,13 +179,12 @@ function Pim() {
             <div className="p-3 mb-1">
               <h1
                 style={{
-                  
                   marginTop: "3rem",
                   fontWeight: "bold",
                 }}
               >
                 <span style={{ color: "#0d6efd", textDecoration: "underline" }}>
-                  Transition from Scrum Master to Developer
+                  Why Scrum Masters Need to Develop
                 </span>
               </h1>
 
@@ -193,7 +192,7 @@ function Pim() {
                 <Col md={12} className="project-description">
                   <h2 id="motivation">Motivation</h2>
                   <p>
-                    During a two-year project to introduce a new Product
+                    During a three-year project to introduce a new Product
                     Information Management System (PIM) for a retail company, I
                     started as a Scrum Master and later switched to software
                     development. In this article, I will show how we used the
@@ -236,17 +235,16 @@ function Pim() {
                     Considerations for Change
                   </h3>
                   <p>
-                    The story began during the pandemic when I started as a
-                    Scrum Master in the early stages of the project. During the
-                    lockdown, I was among the employees who didn't work for two
-                    months because my role was considered non-essential. This
-                    was a pivotal moment in my career, as I gained insight into
-                    which roles were critical and which were not. Roles
-                    responsible for requirements, operations, and Scrum Master
-                    duties were deemed non-essential, while developers and the
-                    Product Owner continued working as usual. Fortunately, I had
-                    already started learning to code, and after the pandemic, I
-                    was eager to join the development team.
+                    As a Scrum Master, I served as a Servant Leader, a Coach,
+                    and a Mediator. I believe that a great leader must
+                    understand the people they lead. That understanding requires
+                    exposure to their daily work. I collaborated with a variety
+                    of professionals. These included Product Owners, Business
+                    Analysts, Data Analysts, and Developers. Among these groups,
+                    I found Developers the most challenging to understand. They
+                    tackle complex technical problems and speak a specialized
+                    language that is not always easy to comprehend. I decided to
+                    become a Developer so I could improve my leadership skills.
                   </p>
 
                   {/* ----------------------new section------------------------------ */}
@@ -865,4 +863,4 @@ function Pim() {
   );
 }
 
-export default Pim;
+export default ScrumDev;
