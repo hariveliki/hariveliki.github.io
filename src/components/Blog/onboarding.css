@@ -68,6 +68,30 @@
   text-align: center;
 }
 
+.project-description table {
+  color: black;
+  width: 100%;
+  margin: 2rem 0;
+  border-collapse: collapse;
+  border: 1px solid #dee2e6;
+}
+
+.project-description th,
+.project-description td {
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  text-align: left;
+}
+
+.project-description th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.project-description tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
 @media (max-width: 768px) {
   .table-of-contents-wrapper {
     display: none;
