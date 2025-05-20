@@ -44,10 +44,9 @@ function Home() {
             </div>
           </Col>
 
-          {/* Services and Reviews Section - 2/3 width */}
           <Col md={7} className="mx-auto">
             {/* Services Section */}
-            <div className="p-4 mb-1">
+            <div style={{ marginTop: "2rem" }} className="p-4 mb-1">
               <h2
                 style={{
                   textDecoration: "underline",
@@ -75,9 +74,8 @@ function Home() {
                       href="/#/blog/onboarding"
                       style={{ textDecoration: "none" }}
                     >
-                    PIM, Onboarding & Microservices
+                      PIM, Onboarding & Microservices
                     </a>
-                    
                   </p>
                   <p>Machine Learning</p>
                   <p>
@@ -86,7 +84,10 @@ function Home() {
                     </a>
                   </p>
                   <p>
-                    <a href="/#/blog/scrumdev" style={{ textDecoration: "none" }}>
+                    <a
+                      href="/#/blog/scrumdev"
+                      style={{ textDecoration: "none" }}
+                    >
                       Scrum Master und Entwickler
                     </a>
                   </p>
@@ -240,7 +241,7 @@ function Home() {
             </div>
 
             {/* Reviews Section */}
-            <div className="p-4">
+            {/* <div className="p-4">
               <h2
                 style={{ textDecoration: "underline", fontWeight: "bold" }}
                 className="mb-4"
@@ -248,7 +249,6 @@ function Home() {
                 Reviews
               </h2>
               <Row>
-                {/* Review Cards */}
                 <Col md={6} className="mb-4">
                   <div
                     className="p-3"
@@ -303,23 +303,8 @@ function Home() {
                     <small>Freischaffende Künstlerin</small>
                   </div>
                 </Col>
-                {/* <Col md={6} className="mb-4">
-                  <div
-                    className="p-3"
-                    style={{ backgroundColor: "#f8f9fa", borderRadius: "10px" }}
-                  >
-                    <p style={{ fontStyle: "italic" }}>
-                      "Haris motiviert mich Dinge anzupacken und meine Träume zu
-                      verwirklichen"
-                    </p>
-                    <p className="mb-0">
-                      <strong>- Andrei Cozlac</strong>
-                    </p>
-                    <small>Ehemaliger Tänzer Opernhaus Zürich & Genf</small>
-                  </div>
-                </Col> */}
               </Row>
-            </div>
+            </div> */}
           </Col>
         </Row>
       </Container>
