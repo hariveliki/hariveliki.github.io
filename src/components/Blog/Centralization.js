@@ -194,7 +194,7 @@ function Centralization() {
                 }}
               >
                 <span style={{ color: "#0d6efd", textDecoration: "underline" }}>
-                  Elemente erfolgreicher Projektdurchführung
+                  Datenzentralisierung mit PIM: Ein Erfahrungsbericht
                 </span>
               </h1>
 

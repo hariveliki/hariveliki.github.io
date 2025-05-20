@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./scrumdev.css";
 
 function ScrumDev() {
@@ -185,7 +185,8 @@ function ScrumDev() {
                 }}
               >
                 <span style={{ color: "#0d6efd", textDecoration: "underline" }}>
-                  Why Scrum Masters Need to Develop
+                  From Scrum Master to Developer: Lessons in Agile
+                  Transformation
                 </span>
               </h1>
 

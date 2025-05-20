@@ -74,13 +74,13 @@ function Home() {
                       href="/#/blog/onboarding"
                       style={{ textDecoration: "none" }}
                     >
-                      PIM, Onboarding & Microservices
+                      AI-Powered Onboarding
                     </a>
                   </p>
                   <p>Machine Learning</p>
                   <p>
                     <a href="/#/blog/mps" style={{ textDecoration: "none" }}>
-                      Large Language Models
+                      Skalierbarer Content-Workflow dank KI
                     </a>
                   </p>
                   <p>
@@ -88,7 +88,7 @@ function Home() {
                       href="/#/blog/scrumdev"
                       style={{ textDecoration: "none" }}
                     >
-                      Scrum Master und Entwickler
+                      Scrum: Leading Through Change
                     </a>
                   </p>
                   <img
@@ -139,7 +139,7 @@ function Home() {
                       href="/#/blog/centralization"
                       style={{ textDecoration: "none" }}
                     >
-                      PIM Daten Zentralisierung
+                      PIM als Schlüssel zur Effizienz
                     </a>
                   </p>
                   {/* <p>

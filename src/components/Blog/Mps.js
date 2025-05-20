@@ -83,7 +83,7 @@ function Mps() {
               }}
             >
               <span style={{ color: "#0d6efd", textDecoration: "underline" }}>
-                Hunderte Beschreibungen im Minutentakt
+                Skalierbare Produktbeschreibungen dank KI – ein Praxisbericht
               </span>
             </h1>
             <p>
