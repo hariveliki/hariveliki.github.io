@@ -26,7 +26,15 @@ function Christmas2025() {
           </Col>
           <Col md={6} className="text-column">
             <div className="text-content">
-              <h1 className="blog-title">23.12.2025</h1>
+              <h1
+                style={{
+                  marginTop: "3rem",
+                  fontWeight: "bold",
+                }}
+                className="blog-title"
+              >
+                23.12.2025
+              </h1>
               <div className="blog-text">
                 <p>Mini gliebti Simi</p>
                 <p>
