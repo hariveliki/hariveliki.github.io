@@ -11,6 +11,8 @@
     
     if (path !== '/' && !hash) {
       window.location.replace('/#' + path + search);
+    } else if (path === '/' && !hash) {
+      window.location.replace('/');
     } else {
       window.location.replace('/');
     }
