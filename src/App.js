@@ -4,13 +4,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-import {
-  HashRouter,
-  BrowserRouter,
-  Route,
-  Routes,
-  Navigate,
-} from "react-router-dom";
+import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -20,12 +14,10 @@ import Mps from "./components/Blog/Mps";
 import Centralization from "./components/Blog/Centralization";
 import Onboarding from "./components/Blog/Onboarding";
 import Christmas2025 from "./components/Blog/Christmas2025";
-const Router =
-  process.env.REACT_APP_ENV === "github" ? HashRouter : BrowserRouter;
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <Navbar />
         <Routes>
@@ -42,7 +34,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
