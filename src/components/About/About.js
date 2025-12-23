@@ -4,7 +4,6 @@ import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import Sparetime from "./Sparetime";
-import Experience from "./Experience";
 
 function About() {
   return (

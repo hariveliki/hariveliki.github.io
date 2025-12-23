@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./onboarding.css";
 import systemLandscape from "../../Assets/Blog/Onboarding/system-landscape.jpeg";
-import onboardingIst from "../../Assets/Blog/Onboarding/ist.jpg";
 import onboardingSoll from "../../Assets/Blog/Onboarding/soll.jpg";
 
 function Onboarding() {

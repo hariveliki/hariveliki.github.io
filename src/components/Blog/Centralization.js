@@ -6,7 +6,6 @@ import soll from "../../Assets/Blog/Centralization/soll.png";
 import phases from "../../Assets/Blog/Centralization/phases.jpeg";
 import scrum from "../../Assets/Blog/Centralization/scrum.png";
 import planning from "../../Assets/Blog/Centralization/planning.png";
-import community from "../../Assets/Blog/Centralization/community.png";
 import documentation from "../../Assets/Blog/Centralization/documentation.png";
 
 function Centralization() {

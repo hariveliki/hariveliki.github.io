@@ -1,12 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
-  SiVercel,
-  SiMacos,
-} from "react-icons/si";
 import { MdSportsMartialArts } from "react-icons/md";
 import { IoIosBicycle } from "react-icons/io";
 import { FaBookOpen } from "react-icons/fa";

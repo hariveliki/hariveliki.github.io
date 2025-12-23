@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import emailjs from "@emailjs/browser";
 import "./mps.css";
 import ist from "../../Assets/Blog/Mps/ist.png";
 import soll from "../../Assets/Blog/Mps/soll.png";
@@ -8,59 +7,6 @@ import prompt_engineering from "../../Assets/Blog/Mps/prompt_engineering.png";
 import subtasks from "../../Assets/Blog/Mps/subtasks.png";
 
 function Mps() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState({ type: "", message: "" });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevState) => ({
-      ...prevState,
-      [name]: value,
-    }));
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    setSubmitStatus({ type: "", message: "" });
-
-    try {
-      const result = await emailjs.send(
-        "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
-        "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          phone: formData.phone,
-          message: formData.message,
-        },
-        "YOUR_PUBLIC_KEY" // Replace with your EmailJS public key
-      );
-
-      if (result.status === 200) {
-        setSubmitStatus({
-          type: "success",
-          message:
-            "Vielen Dank für Ihre Nachricht! Wir werden uns bald bei Ihnen melden.",
-        });
-        setFormData({ name: "", email: "", phone: "", message: "" });
-      }
-    } catch (error) {
-      setSubmitStatus({
-        type: "error",
-        message:
-          "Es gab einen Fehler beim Senden Ihrer Nachricht. Bitte versuchen Sie es später erneut.",
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
 
   return (
     <div
