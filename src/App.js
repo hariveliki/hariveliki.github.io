@@ -19,6 +19,7 @@ import Std from "./components/Blog/Std";
 import Mps from "./components/Blog/Mps";
 import Centralization from "./components/Blog/Centralization";
 import Onboarding from "./components/Blog/Onboarding";
+import Christmas2025 from "./components/Blog/Christmas2025";
 const Router =
   process.env.REACT_APP_ENV === "github" ? HashRouter : BrowserRouter;
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/blog/mps" element={<Mps />} />
           <Route path="/blog/centralization" element={<Centralization />} />
           <Route path="/blog/onboarding" element={<Onboarding />} />
+          <Route path="/blog/christmas-2025" element={<Christmas2025 />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

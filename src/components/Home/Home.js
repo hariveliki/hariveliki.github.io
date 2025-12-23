@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -70,26 +71,26 @@ function Home() {
                     Software / AI
                   </h3>
                   <p>
-                    <a
-                      href="/#/blog/onboarding"
+                    <Link
+                      to="/blog/onboarding"
                       style={{ textDecoration: "none" }}
                     >
                       AI-Powered Onboarding
-                    </a>
+                    </Link>
                   </p>
                   <p>Machine Learning</p>
                   <p>
-                    <a href="/#/blog/mps" style={{ textDecoration: "none" }}>
+                    <Link to="/blog/mps" style={{ textDecoration: "none" }}>
                       Skalierbarer Content-Workflow dank KI
-                    </a>
+                    </Link>
                   </p>
                   <p>
-                    <a
-                      href="/#/blog/scrumdev"
+                    <Link
+                      to="/blog/scrumdev"
                       style={{ textDecoration: "none" }}
                     >
                       Scrum: Leading Through Change
-                    </a>
+                    </Link>
                   </p>
                   <img
                     src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/svgs/solid/rocket.svg"
@@ -135,12 +136,12 @@ function Home() {
                   </h3>
                   <p>AI-Interaktion mit Ihrem Gebäude</p>
                   <p>
-                    <a
-                      href="/#/blog/centralization"
+                    <Link
+                      to="/blog/centralization"
                       style={{ textDecoration: "none" }}
                     >
                       PIM als Schlüssel zur Effizienz
-                    </a>
+                    </Link>
                   </p>
                   {/* <p>
                     <a href="/#">Change Management</a>
@@ -186,12 +187,12 @@ function Home() {
                     Leadership
                   </h3>
                   <p>
-                    <a
-                      href="/#/blog/centralization"
+                    <Link
+                      to="/blog/centralization"
                       style={{ textDecoration: "none" }}
                     >
                       Servant Leadership
-                    </a>
+                    </Link>
                   </p>
                   <p>Management Retourenabteilung</p>
                   <img
